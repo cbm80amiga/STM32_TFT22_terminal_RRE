@@ -43,21 +43,21 @@ TFT2.2 ILI9341 from top left:
   
   VCC   +3.3V
   
-# Programming STM32 via serial
+# STM32 via serial programming
 Tools/Board set to Generic STM32F103C
 
 Tools/Upload set to Serial
 
-Top jumper set to 1, press reset button before uploading
+Top jumper set to 1, press reset button before flashing
 
 # Serial adapter to STM32
   PA9 /TX to PC RX
   
   PA10/RX to PC TX
   
-  3V3 (don't use 5V!)
+  3V3 (don't use 5V !!!)
   
   GND
   
 # Fonter
-Improved font conversion tool by CNLohr can be taked from my fork of his pylotron game
+Improved font conversion tool by CNLohr can be taken from my fork of his pylotron game

@@ -1,5 +1,5 @@
 
-# Minimalistic STM32 and ILI9431 based terminal
+# Minimalistic STM32 and ILI9341 based terminal
 
 Code for the videos:
 

@@ -1,5 +1,5 @@
-# STM32_TFT22_terminal_RRE
-Minimalistic STM32 and ILI9431 based terminal
+
+# Minimalistic STM32 and ILI9431 based terminal
 
 Code for the videos:
 
@@ -21,6 +21,7 @@ https://www.youtube.com/watch?v=DAAbDGCeQ1o
   PA11 RST
   
   PA12 DC
+  
   
 TFT2.2 ILI9341 from top left:
 
@@ -50,11 +51,13 @@ Tools/Upload set to Serial
 Top jumper set to 1, press reset button before uploading
 
 # Serial adapter to STM32
-  PA9 /TX to PC RX (VIOLET)
+  PA9 /TX to PC RX
   
-  PA10/RX to PC TX (GREY)
+  PA10/RX to PC TX
   
-  3V3              (RED)
+  3V3 (don't use 5V!)
   
-  GND              (BLUE)
+  GND
   
+# Fonter
+Improved font conversion tool by CNLohr can be taked from my fork of his pylotron game
